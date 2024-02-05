@@ -135,7 +135,7 @@ function SignUp() {
             </Button>
             <Grid container justifyContent="flex-end">
               <Grid item>
-                <Link  variant="body2"  onClick = {()=>navigate('/')}>
+                <Link    onClick = {()=>navigate('/')}>
                   Already have an account? Sign in
                 </Link>
               </Grid>
